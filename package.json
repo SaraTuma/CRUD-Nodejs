@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Pre-requisitos que devem estar instalados:\r 1. NodeJs\r 2. Git",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraTuma/CRUD-MysqlNodejs.git"
+  },
+  "author": "Sara Tuma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraTuma/CRUD-MysqlNodejs/issues"
+  },
+  "homepage": "https://github.com/SaraTuma/CRUD-MysqlNodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
